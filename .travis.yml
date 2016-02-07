@@ -1,8 +1,5 @@
 language: java
 before_script:
-  - ant test
-  - cd build/classes/
-
+	- cd build/classes
 script:
-  - java tests.Runner
-  
+	- java testes.Runner
